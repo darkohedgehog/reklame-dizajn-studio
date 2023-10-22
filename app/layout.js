@@ -2,6 +2,7 @@ import { Sora } from 'next/font/google';
 import './globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 const sora = Sora ({
   subsets: ['latin'],
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={sora.className}>
         <Nav />
+        <Header />
         {children}
         <Footer />
         </body>

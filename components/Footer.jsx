@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className="bg-primary bottom-0 w-full pb-28 relative">
+    <div className="bg-primary w-full pb-20">
       <footer className="bg-primary">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
@@ -121,7 +121,7 @@ const Footer = () => {
                   className="w-4 h-4"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4"
+                  
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
